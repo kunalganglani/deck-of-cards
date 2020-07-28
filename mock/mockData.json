@@ -1,0 +1,220 @@
+{
+    "cards": {
+        "clubs": {
+            "1": {
+                "img": "",
+                "available": true
+            },
+            "2": {
+                "img": "",
+                "available": true
+            },
+            "3": {
+                "img": "",
+                "available": true
+            },
+            "4": {
+                "img": "",
+                "available": true
+            },
+            "5": {
+                "img": "",
+                "available": true
+            },
+            "6": {
+                "img": "",
+                "available": true
+            },
+            "7": {
+                "img": "",
+                "available": true
+            },
+            "8": {
+                "img": "",
+                "available": true
+            },
+            "9": {
+                "img": "",
+                "available": true
+            },
+            "10": {
+                "img": "",
+                "available": true
+            },
+            "J": {
+                "img": "",
+                "available": true
+            },
+            "Q": {
+                "img": "",
+                "available": true
+            },
+            "K": {
+                "img": "",
+                "available": true
+            }
+        },
+        "diamonds": {
+            "1": {
+                "img": "",
+                "available": true
+            },
+            "2": {
+                "img": "",
+                "available": true
+            },
+            "3": {
+                "img": "",
+                "available": true
+            },
+            "4": {
+                "img": "",
+                "available": true
+            },
+            "5": {
+                "img": "",
+                "available": true
+            },
+            "6": {
+                "img": "",
+                "available": true
+            },
+            "7": {
+                "img": "",
+                "available": true
+            },
+            "8": {
+                "img": "",
+                "available": true
+            },
+            "9": {
+                "img": "",
+                "available": true
+            },
+            "10": {
+                "img": "",
+                "available": true
+            },
+            "J": {
+                "img": "",
+                "available": true
+            },
+            "Q": {
+                "img": "",
+                "available": true
+            },
+            "K": {
+                "img": "",
+                "available": true
+            }
+        },
+        "hearts": {
+            "1": {
+                "img": "",
+                "available": true
+            },
+            "2": {
+                "img": "",
+                "available": true
+            },
+            "3": {
+                "img": "",
+                "available": true
+            },
+            "4": {
+                "img": "",
+                "available": true
+            },
+            "5": {
+                "img": "",
+                "available": true
+            },
+            "6": {
+                "img": "",
+                "available": true
+            },
+            "7": {
+                "img": "",
+                "available": true
+            },
+            "8": {
+                "img": "",
+                "available": true
+            },
+            "9": {
+                "img": "",
+                "available": true
+            },
+            "10": {
+                "img": "",
+                "available": true
+            },
+            "J": {
+                "img": "",
+                "available": true
+            },
+            "Q": {
+                "img": "",
+                "available": true
+            },
+            "K": {
+                "img": "",
+                "available": true
+            }
+        },
+        "spades": {
+            "1": {
+                "img": "",
+                "available": true
+            },
+            "2": {
+                "img": "",
+                "available": true
+            },
+            "3": {
+                "img": "",
+                "available": true
+            },
+            "4": {
+                "img": "",
+                "available": true
+            },
+            "5": {
+                "img": "",
+                "available": true
+            },
+            "6": {
+                "img": "",
+                "available": true
+            },
+            "7": {
+                "img": "",
+                "available": true
+            },
+            "8": {
+                "img": "",
+                "available": true
+            },
+            "9": {
+                "img": "",
+                "available": true
+            },
+            "10": {
+                "img": "",
+                "available": true
+            },
+            "J": {
+                "img": "",
+                "available": true
+            },
+            "Q": {
+                "img": "",
+                "available": true
+            },
+            "K": {
+                "img": "",
+                "available": true
+            }
+        }
+    }
+}

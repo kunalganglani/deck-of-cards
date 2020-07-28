@@ -1,0 +1,13 @@
+
+@use 'color-pallete';
+body {
+    position: relative;
+    background: color-pallete.$app-background;
+}
+
+.creditsContainer {
+    display: flex;
+    justify-content: center;
+    margin: 19px;
+    font-style: italic;
+}

@@ -1,0 +1,108 @@
+@use '../../_color-pallete.scss';
+
+.cardIndividualDeck div {
+  margin: 2px;
+  display: inline;
+}
+.card {
+  color: color-pallete.$white;
+  background: lightblue;
+  padding: 1rem;
+  height: 11rem;
+  line-height: 11rem;
+  text-align: center;
+  font-size: 6rem;
+  font-family: sans-serif;
+  transform-style: preserve-3d;
+  transition: all 0.9s ease-in-out;
+  animation: changeLetter 1s linear alternate;
+}
+@keyframes changeLetter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cardContainer {
+  width: 80rem;
+  max-width: 80rem;
+  display: grid;
+}
+.component {
+  display: flex;
+  flex-direction: row-reverse;
+  place-content: flex-end;
+}
+button {
+  background-color: color-pallete.$button-blue;;
+  width: 10rem;
+  border: none;
+  margin: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 6px 0px color-pallete.$button-shadow;
+  -moz-box-shadow: 0px 6px 0px color-pallete.$button-shadow;
+  box-shadow: 0px 6px 0px color-pallete.$button-shadow;;
+}
+.buttonContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media only screen and (max-width: 500px) {
+  body{
+    background: color-pallete.$white;
+  }
+  .cardIndividualDeck{
+    margin-bottom: 40px;
+  }
+  .cardContainer {
+    width: auto;
+    padding: 1rem;
+  }
+  .component {
+    flex-direction: column;
+  }
+  .buttonContainer {
+    display: flex;
+    margin: 8px 0px;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .buttonContainer button {
+    margin: 0px 5px 5px;
+    width: 6rem;
+    height: 3rem;
+  }
+  .card {
+    height: 1rem;
+    line-height: 1rem;
+    background: color-pallete.$app-background;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+  }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    height: 5rem;
+    line-height: 5rem; 
+  }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cardContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

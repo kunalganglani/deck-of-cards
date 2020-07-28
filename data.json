@@ -1,0 +1,40 @@
+{
+  "obj": [
+    {
+      "id": 0,
+      "background": "lightBlue"
+    },
+    {
+      "id": 1,
+      "background": "darkBlue"
+    },
+    {
+      "id": 2,
+      "background": "greyBlue"
+    },
+    {
+      "id": 3,
+      "background": "darkBlue"
+    },
+    {
+      "id": 4,
+      "background": "greyBlue"
+    },
+    {
+      "id": 5,
+      "background": "grey"
+    },
+    {
+      "id": 6,
+      "background": "grey"
+    },
+    {
+      "id": 7,
+      "background": "lightBlue"
+    },
+    {
+      "id": 8,
+      "background": "greyBlue"
+    }
+  ]
+}
